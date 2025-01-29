@@ -1,0 +1,1455 @@
+{
+  "$Bundles": {
+    "Game2": "0.12.22.810",
+    "System.Runtime": "1.0.0.0",
+    "VRage": "0.12.22.810"
+  },
+  "$Type": "VRage:Keen.VRage.DCS.Serialization.EOBUpdateContext",
+  "$Value": {
+    "Snapshots": {
+      "f7a663bd-c8cd-44a1-81ee-36fde0857747": {
+        "Definition": "f7a663bd-c8cd-44a1-81ee-36fde0857747",
+        "Components": [
+          "5a78c226-a5e7-5ea7-dd66-9dbde3bd074a",
+          "f6895965-89a7-9ae4-eb64-ae48d362a505",
+          "9cb8c054-1da5-4caa-82e4-3ff703f7bb24",
+          "f13d4b13-9d5e-3215-b602-e7ff1280448a",
+          "8c57db5e-f174-3607-04f1-46ff6fa94ea1",
+          "f4d99d3b-3698-a02c-bf7e-bc8d76b29768",
+          "94e1c061-819e-c80b-d4f9-c6e0770e3452",
+          "ead556bc-dcde-4c46-aa5e-2d6ce3143156",
+          "863d212f-e36d-ee86-6f8a-3ea98668276f",
+          "f0d091d0-be43-d91c-cfe6-7b549e9cc641",
+          "b1c7052b-469b-2ae4-af92-d63c3ca03d48",
+          "1e9812b9-4a0e-1429-a00b-0850d2abd4e4",
+          "8716df7d-1a0a-16d0-3690-3b60709cd1f3",
+          "0119b467-d1c3-01a8-916d-493ee953c767",
+          "f4bd858b-6dac-3968-f0a2-6614e249dce6",
+          "080dbd37-a5bd-3de1-1a07-817c9c877ec6",
+          "9750196f-cdbf-f42a-b8ae-45065ff0631e",
+          "c1257341-9599-5aa4-5cc5-202dfda5415b",
+          "23cc6eca-a550-9a88-8924-48158ba2a1a0",
+          "1768da27-19a7-a4d6-b6af-85eddfc7e7ce",
+          "75fd2a0a-052e-dace-74f5-3bf9acfdf613",
+          "47d2160a-ffc1-47bd-a862-df9482cf88d1",
+          "4eecffc1-dd62-4e27-95bf-aa12957ac7f1",
+          "1b223759-73ea-4b48-9c34-1a93da84dd23",
+          "8a574b31-1134-d8a3-dc46-a93ad3c3f572",
+          "45d8e833-b9f4-4679-8692-8db01d9232cd",
+          "757eb23f-3a2b-4f44-9c72-0c25249206c8",
+          "2c9df20a-61ce-4210-8014-581253af6e8a",
+          "01420fc4-5850-442e-8023-e73cd08e49c9",
+          "ada860f7-db99-4cbb-ab9c-d63b416af189"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.WorldTransformComponentObjectBuilder",
+          null,
+          null,
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.BoneStorage.BoneStorageObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeGrids.CubeGridObjectBuilder",
+          null,
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeGrids.Physicss.GridPhysicsObjectBuilder",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.GameSystems.Ownership.OwnershipObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeGrids.GridPermissionsObjectBuilder",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeGridGroupsComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BuildingInfoComponentObjectBuilder",
+          null
+        ]
+      },
+      "331908ae-5a66-4479-a790-1ef5c19316ef": {
+        "Definition": "331908ae-5a66-4479-a790-1ef5c19316ef",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "91e12dcf-837b-4bec-8269-cf48c52a1e1f",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.FunctionalBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "b4d170be-6b9c-44fe-8a72-7254a2ccaa68": {
+        "Definition": "b4d170be-6b9c-44fe-8a72-7254a2ccaa68",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "4e49ffa8-efc3-4043-9adc-04f5f1408d61"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.Movement.ThrusterObjectBuilder"
+        ]
+      },
+      "3277a77c-59fc-46db-9ba2-3f9b2ac1fead": {
+        "Definition": "3277a77c-59fc-46db-9ba2-3f9b2ac1fead",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "4c80d672-bc0a-4661-bb77-007ae90f1d57": {
+        "Definition": "4c80d672-bc0a-4661-bb77-007ae90f1d57",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "f1c18773-82c3-4952-bd87-75e585bb8bd2": {
+        "Definition": "f1c18773-82c3-4952-bd87-75e585bb8bd2",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "766f352d-2d7a-4c41-86d0-f10ef38cb5c6": {
+        "Definition": "766f352d-2d7a-4c41-86d0-f10ef38cb5c6",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "dbcd1dda-0eb3-42a6-92c1-a0c3d2a7dfe2": {
+        "Definition": "dbcd1dda-0eb3-42a6-92c1-a0c3d2a7dfe2",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "c2045b2d-9c9f-4261-968c-05256d5c797f": {
+        "Definition": "c2045b2d-9c9f-4261-968c-05256d5c797f",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "410c197a-a463-4494-b9af-35e676bc15ec": {
+        "Definition": "410c197a-a463-4494-b9af-35e676bc15ec",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "560ad1d9-819b-4c94-b6df-51ab69d6621f": {
+        "Definition": "560ad1d9-819b-4c94-b6df-51ab69d6621f",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "bdc9716f-8b96-4c72-b2a1-6bbf8a651e90": {
+        "Definition": "bdc9716f-8b96-4c72-b2a1-6bbf8a651e90",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "c232d09e-aa3a-490a-85e2-caa6094b4fa6",
+          "bac92e12-5b47-43d9-9280-ee26b3e40bbc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null,
+          null
+        ]
+      },
+      "7fe314b7-9ffa-49b5-be14-48141643f2b6": {
+        "Definition": "7fe314b7-9ffa-49b5-be14-48141643f2b6",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "998e7263-37b8-42c6-9891-dd387e1a0f21": {
+        "Definition": "998e7263-37b8-42c6-9891-dd387e1a0f21",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "569ce990-cb2b-47a0-abdd-19c462773bae"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.Shared.Visuals.Lights.LightObjectBuilder"
+        ]
+      },
+      "d2094e51-578f-45c2-98b4-02b9802b01d3": {
+        "Definition": "d2094e51-578f-45c2-98b4-02b9802b01d3",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "0068e82e-91d7-4222-b0b0-ad6d3e247a5b": {
+        "Definition": "0068e82e-91d7-4222-b0b0-ad6d3e247a5b",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "4030ca9e-c269-479c-bb2a-a6b64c2411fc": {
+        "Definition": "4030ca9e-c269-479c-bb2a-a6b64c2411fc",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "43efa952-810d-4e80-8733-038c52f5b6f7",
+          "c443c17c-8109-4623-84b6-1053a30d030b",
+          "d4531daa-ded8-4fdb-bff4-fa6d2d7bdf1f"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.Pilotable.SeatObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BlockPermissionsObjectBuilder"
+        ]
+      },
+      "e15a14fb-4280-42f1-81cb-768feab9691f": {
+        "Definition": "e15a14fb-4280-42f1-81cb-768feab9691f",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "53ce715d-82f4-4f1f-aa64-c586357f603a",
+          "a23bf1d8-64ca-417b-84d7-eef39184b30d",
+          "90e9fcf6-d020-4c62-b541-0fb7cba3bd3a",
+          "c8408c2a-8ead-40cb-b60e-9862fe7b5900",
+          "c6cea9ff-91c6-48d9-a5f4-79fb8cf610a9",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.MechanicalBlocks.MagneticBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "73255441-d1d8-44b1-b530-7c5ade7e89c1": {
+        "Definition": "73255441-d1d8-44b1-b530-7c5ade7e89c1",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "7e93fd0c-ea15-4810-97a7-49f4304a1c9f"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.Shared.Visuals.Lights.LightObjectBuilder"
+        ]
+      },
+      "1ceb91d3-3a93-4e1b-a4bc-fb1c5a93af64": {
+        "Definition": "1ceb91d3-3a93-4e1b-a4bc-fb1c5a93af64",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "c19a4b1b-1216-4c4e-8e43-be6f6fa2cf70",
+          "77531b18-0869-475d-af29-56c1fde097f9",
+          "8023520f-e8f0-4159-8b04-a6e7e11f59de",
+          "ff14c5b4-1b17-4432-8bfc-82936bfe94fc",
+          "f3d9a974-f71f-43f1-814b-7974613c2586",
+          "0080a4af-3aca-4b5a-8a85-4071c5b0d32c",
+          "2f0c4781-a3f8-4a25-a65c-b9415fc8cd01"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null,
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Items.InventoryObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.Tools.Voxels.DrillObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BlockPermissionsObjectBuilder"
+        ]
+      },
+      "402fa427-ea7a-4900-9227-0a41e2f5eb05": {
+        "Definition": "402fa427-ea7a-4900-9227-0a41e2f5eb05",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "a3be867c-08f8-46bc-93ef-ae6e177d583c": {
+        "Definition": "a3be867c-08f8-46bc-93ef-ae6e177d583c",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "610740e1-3d69-4f9b-85cd-c880913a5650": {
+        "Definition": "610740e1-3d69-4f9b-85cd-c880913a5650",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "298587c2-c8ea-4ea7-9e97-cbb310dc8110": {
+        "Definition": "298587c2-c8ea-4ea7-9e97-cbb310dc8110",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "e4b8be51-a8c5-4a2b-9544-923a2b953009": {
+        "Definition": "e4b8be51-a8c5-4a2b-9544-923a2b953009",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "60ec99e4-d918-4180-ba57-f6f2551ac0a1": {
+        "Definition": "60ec99e4-d918-4180-ba57-f6f2551ac0a1",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "88dffbad-2fac-4f04-a571-8b34695f7261": {
+        "Definition": "88dffbad-2fac-4f04-a571-8b34695f7261",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "f2202f8e-452b-49c1-8be8-17c6ad92f5c6": {
+        "Definition": "f2202f8e-452b-49c1-8be8-17c6ad92f5c6",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "235823ca-6782-4179-89a8-6b358a0623c5": {
+        "Definition": "235823ca-6782-4179-89a8-6b358a0623c5",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "1c9178ff-64b9-4ab2-b150-172628d86465": {
+        "Definition": "1c9178ff-64b9-4ab2-b150-172628d86465",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "86748fb1-14b5-4d75-819e-c34529c340ad": {
+        "Definition": "86748fb1-14b5-4d75-819e-c34529c340ad",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "9e9f70a4-1ec6-4a81-b017-5432399c233b": {
+        "Definition": "9e9f70a4-1ec6-4a81-b017-5432399c233b",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "18ab0690-11c4-42e1-a11d-a4ef952e1bea": {
+        "Definition": "18ab0690-11c4-42e1-a11d-a4ef952e1bea",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "730fa6a1-736c-4926-a6af-cea794ffce4f": {
+        "Definition": "730fa6a1-736c-4926-a6af-cea794ffce4f",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "e2dcd1a1-49b5-4a19-8880-cbf208d11dee": {
+        "Definition": "e2dcd1a1-49b5-4a19-8880-cbf208d11dee",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "552ff784-740e-4a99-90a5-efce54c2bf5c": {
+        "Definition": "552ff784-740e-4a99-90a5-efce54c2bf5c",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "b1069c34-9d26-4693-85f7-48a12edae469": {
+        "Definition": "b1069c34-9d26-4693-85f7-48a12edae469",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "43efa952-810d-4e80-8733-038c52f5b6f7",
+          "c443c17c-8109-4623-84b6-1053a30d030b",
+          "40fc16ff-357d-48ec-a4c1-91d2bd73f82b"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.Pilotable.SeatObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BlockPermissionsObjectBuilder"
+        ]
+      },
+      "3f07d84e-ed36-4eb0-aea2-0b9fafa68cbe": {
+        "Definition": "3f07d84e-ed36-4eb0-aea2-0b9fafa68cbe",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "af63a471-457b-4d38-8a28-7c227a925493": {
+        "Definition": "af63a471-457b-4d38-8a28-7c227a925493",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "4500cfde-b999-42aa-970f-827a941dedfc": {
+        "Definition": "4500cfde-b999-42aa-970f-827a941dedfc",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "d1f8aacb-40da-413d-b1e1-2c9f06fcd5ca": {
+        "Definition": "d1f8aacb-40da-413d-b1e1-2c9f06fcd5ca",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "4df599f7-dea6-4f5b-b517-91e0d4aacb95": {
+        "Definition": "4df599f7-dea6-4f5b-b517-91e0d4aacb95",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "569ce990-cb2b-47a0-abdd-19c462773bae"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.Shared.Visuals.Lights.LightObjectBuilder"
+        ]
+      },
+      "9f03b69c-5457-4da0-9d98-7013e9e25c22": {
+        "Definition": "9f03b69c-5457-4da0-9d98-7013e9e25c22",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "53ce715d-82f4-4f1f-aa64-c586357f603a",
+          "a23bf1d8-64ca-417b-84d7-eef39184b30d",
+          "90e9fcf6-d020-4c62-b541-0fb7cba3bd3a",
+          "c8408c2a-8ead-40cb-b60e-9862fe7b5900",
+          "c6cea9ff-91c6-48d9-a5f4-79fb8cf610a9",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.MechanicalBlocks.MagneticBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "f9a58ffb-617d-4872-8f2f-c537d49af1eb": {
+        "Definition": "f9a58ffb-617d-4872-8f2f-c537d49af1eb",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "1bacdcde-3180-41fd-a860-585ac13ac6bb": {
+        "Definition": "1bacdcde-3180-41fd-a860-585ac13ac6bb",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "72d44945-bcb9-496e-98bc-05879adfab30": {
+        "Definition": "72d44945-bcb9-496e-98bc-05879adfab30",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "56f6a42e-55da-42e0-a072-a14a0b5ca6f1": {
+        "Definition": "56f6a42e-55da-42e0-a072-a14a0b5ca6f1",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "ba1eb705-a800-47ce-9f28-1609369788cb": {
+        "Definition": "ba1eb705-a800-47ce-9f28-1609369788cb",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "4eb68449-c20d-46fc-b9f7-8de24488f6e6": {
+        "Definition": "4eb68449-c20d-46fc-b9f7-8de24488f6e6",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "8aa2b903-efac-4f20-8714-a4e4c6dccb93": {
+        "Definition": "8aa2b903-efac-4f20-8714-a4e4c6dccb93",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "1a245d28-7c72-4e14-8c8e-45629aaa302d": {
+        "Definition": "1a245d28-7c72-4e14-8c8e-45629aaa302d",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "d9eb5e22-5cbf-4f41-86df-8de74933c5ea": {
+        "Definition": "d9eb5e22-5cbf-4f41-86df-8de74933c5ea",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "6ed8c36c-a9db-49f7-b8db-682d0b702a47": {
+        "Definition": "6ed8c36c-a9db-49f7-b8db-682d0b702a47",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "dd0553d0-e1ad-4e61-a0ec-80f04716e57a",
+          "f9d5f740-9d27-4816-83eb-d3384d078d5f"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.GameSystems.RangedAffectGenerators.Gravity.GravityGeneratorObjectBuilder",
+          null
+        ]
+      },
+      "6ded7f11-e2a2-49ae-bf59-2dfae2909a58": {
+        "Definition": "6ded7f11-e2a2-49ae-bf59-2dfae2909a58",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "58d4aece-a1d3-4dff-a1f8-bdca19e1c993": {
+        "Definition": "58d4aece-a1d3-4dff-a1f8-bdca19e1c993",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "91e12dcf-837b-4bec-8269-cf48c52a1e1f",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "c6ed7875-c943-4663-8a83-0d1664c21278"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.FunctionalBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null
+        ]
+      },
+      "fca02bd8-37a7-41c4-8177-7d779a68a890": {
+        "Definition": "fca02bd8-37a7-41c4-8177-7d779a68a890",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "e011dbad-6bdb-4f45-8aa4-d3d7bbf86b19": {
+        "Definition": "e011dbad-6bdb-4f45-8aa4-d3d7bbf86b19",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "91e12dcf-837b-4bec-8269-cf48c52a1e1f",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.FunctionalBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "3436c576-aa8d-4344-9695-6ef9bf518dee": {
+        "Definition": "3436c576-aa8d-4344-9695-6ef9bf518dee",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "91e12dcf-837b-4bec-8269-cf48c52a1e1f",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "c6ed7875-c943-4663-8a83-0d1664c21278"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.FunctionalBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null
+        ]
+      },
+      "1516e120-9374-49d9-b52e-0e4f66825085": {
+        "Definition": "1516e120-9374-49d9-b52e-0e4f66825085",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "786ef564-3cbf-4509-a58c-ad19243fffc1",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "d2118bfc-7a8a-4616-8701-5a9376f9edf0": {
+        "Definition": "d2118bfc-7a8a-4616-8701-5a9376f9edf0",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "efdf6e61-6485-4926-a86a-9a5995384b2f"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null
+        ]
+      },
+      "aef113ef-7ab2-41ed-88d1-13e84e84aa57": {
+        "Definition": "aef113ef-7ab2-41ed-88d1-13e84e84aa57",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "a334a14e-fa25-4d58-a69c-027610b1b687"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null
+        ]
+      },
+      "98b92b2d-faf8-451b-b2a0-394203c43f89": {
+        "Definition": "98b92b2d-faf8-451b-b2a0-394203c43f89",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "4e49ffa8-efc3-4043-9adc-04f5f1408d61"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.Movement.ThrusterObjectBuilder"
+        ]
+      },
+      "0695ae2a-4289-43ba-9fd6-052957c28e13": {
+        "Definition": "0695ae2a-4289-43ba-9fd6-052957c28e13",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "6cb3447a-768d-4234-be3b-81a24c02ba2d": {
+        "Definition": "6cb3447a-768d-4234-be3b-81a24c02ba2d",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "91e12dcf-837b-4bec-8269-cf48c52a1e1f",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.FunctionalBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder"
+        ]
+      },
+      "467d7f80-fa63-4dfe-8c20-eabd29d0778d": {
+        "Definition": "467d7f80-fa63-4dfe-8c20-eabd29d0778d",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "c232d09e-aa3a-490a-85e2-caa6094b4fa6",
+          "53b4b38e-fc40-4e82-930e-f0b5b1319812"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null,
+          null
+        ]
+      },
+      "b8eabff7-b153-4bf9-bac9-e35ac9bae3e3": {
+        "Definition": "b8eabff7-b153-4bf9-bac9-e35ac9bae3e3",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "4e49ffa8-efc3-4043-9adc-04f5f1408d61"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.Movement.ThrusterObjectBuilder"
+        ]
+      },
+      "6fb704dc-ca83-4a69-94b3-6ea589129f7e": {
+        "Definition": "6fb704dc-ca83-4a69-94b3-6ea589129f7e",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "4e49ffa8-efc3-4043-9adc-04f5f1408d61"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.Movement.ThrusterObjectBuilder"
+        ]
+      },
+      "3b238801-6e10-4a43-83b3-e2e3b3bc61bd": {
+        "Definition": "3b238801-6e10-4a43-83b3-e2e3b3bc61bd",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "d5e705d9-b3c0-4ebf-8f87-0397656769e6": {
+        "Definition": "d5e705d9-b3c0-4ebf-8f87-0397656769e6",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "5fb75ec6-1053-4ff7-8f67-3c270f78943d": {
+        "Definition": "5fb75ec6-1053-4ff7-8f67-3c270f78943d",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "ecceed93-a5a1-4505-ad71-95baa46c5d6f": {
+        "Definition": "ecceed93-a5a1-4505-ad71-95baa46c5d6f",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "99b0fd59-b175-4ed0-8251-224787aba984",
+          "627bf238-e13e-49f4-9f61-27038e422899"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.CubeBlockObjectBuilder",
+          null
+        ]
+      },
+      "456ecfc8-3c12-4ec6-95ec-1b90ca063a14": {
+        "Definition": "456ecfc8-3c12-4ec6-95ec-1b90ca063a14",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727",
+          "bc5652a0-1296-4040-adc3-a2b9c35d5afc",
+          "c232d09e-aa3a-490a-85e2-caa6094b4fa6",
+          "455a3a2c-7f51-4c54-bda7-711dcea16376"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.BreakableBlockObjectBuilder",
+          null,
+          null
+        ]
+      },
+      "d25fd586-eb7f-445c-90b0-588708a0aa64": {
+        "Definition": "d25fd586-eb7f-445c-90b0-588708a0aa64",
+        "Components": [
+          "b7bf405c-71aa-46a1-a5ec-4c690f2ab7e3",
+          "e58b8f69-45da-40d4-82b0-f1a82564a53a",
+          "d358358e-30b3-484a-b8b8-2e5568c7298b",
+          "4f2bc5f9-6a6d-4347-a1eb-5937cbce6727"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.ChildTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.CubeBlocks.PowerableBlockObjectBuilder"
+        ]
+      },
+      "a4240c9b-ef0e-47d8-a585-1726c7d6094a": {
+        "Definition": "a4240c9b-ef0e-47d8-a585-1726c7d6094a",
+        "Components": [
+          "83437aea-5da2-b524-979f-2382b085f9ce",
+          "f08110bb-47d1-8442-b07a-92439861cb14",
+          "4e8d1333-65e3-c9ca-f15f-c4c2e9834a13",
+          "c0ad471a-ccda-1704-0e84-02c860b3cd8a",
+          "68671054-39d8-67f4-0f76-3f5f6202693d",
+          "233c1fc1-894e-4899-8fee-3d51da21c584"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.WorldTransformComponentObjectBuilder",
+          "VRage:Keen.VRage.Voxels.Components.ProceduralVoxelStorageComponentObjectBuilder",
+          null,
+          null,
+          "VRage:Keen.VRage.Voxels.Components.VoxelPhysicsComponentObjectBuilder",
+          null
+        ]
+      },
+      "4cc16aab-0c8b-4196-9a2d-0d8bc33fe89e": {
+        "Definition": "4cc16aab-0c8b-4196-9a2d-0d8bc33fe89e",
+        "Components": [
+          "2505791f-0436-51e7-5613-c8f12b639f3b",
+          "c1ec43f8-a19b-42db-d7bc-dd059e4bc83e",
+          "53c38a4b-e9da-2ebc-412b-9860cdb7b6df",
+          "4b6c5eee-207b-f8c9-920a-17bb7c889947",
+          "01d8c789-7a33-afa4-97a1-66489de5b0e6",
+          "c78a6e0c-6774-2b90-c0cb-c0d0d100b2b8",
+          "0daf3159-d1fd-21d2-36ac-4068bad3dd96",
+          "4cb5adef-aa0e-5607-c117-0db7b3b7713f",
+          "b688d72e-ca7f-c002-293b-d3238bf7cd7f",
+          "a076136f-a451-c0ba-7eb5-cf327543b9e6",
+          "a6f8013a-3c5d-4b45-f3f5-ce59dbd5e17e",
+          "95d6265d-65cd-6073-75c7-77f758d3fc62",
+          "73f74f46-134a-a389-d89e-18d64045d454",
+          "9d89cd77-d844-d4b1-8e98-3196c54df31f",
+          "8b126bf8-6ddd-4933-9d33-bd2e4d9d202f",
+          "187acdab-87a8-48c7-9bf1-209e224bf2b7",
+          "1ef61e98-e5a9-47ed-9cb9-68cec2b0926a",
+          "1f232caf-b70b-405b-811d-a3c5b649272a",
+          "be66dbac-d40f-47f5-bdb0-9afe32c52282",
+          "5a47ad72-26e4-4ee0-bbcd-8418745c15af",
+          "06d65092-b5df-73ac-babd-b3d9b9815bad",
+          "0be91de0-0ecb-af9e-2959-4ce6c41b6e7f",
+          "c917d52f-551c-4ffe-911b-c332bf0896f4",
+          "0af1d28b-7516-410f-8d79-5a419dd80a98",
+          "ff73cdaf-5f0b-4d6e-9c33-eb2f476c7286",
+          "b3cdde1c-9b81-48ab-84e7-a68fab5cc7e2",
+          "241961b8-29df-4116-ab70-3d39ad0b2e62"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.WorldTransformComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.SkinComponentObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.CharacterPhysicsEntityComponentObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.Stats.StatCollectionObjectBuilder",
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.CharacterLifeObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Items.InventoryObjectBuilder",
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.GameSystems.Ownership.OwnershipObjectBuilder",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.CharacterMovementComponentObjectBuilder",
+          null,
+          null,
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.CharacterLookOffsetObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.ToolsComponentObjectBuilder"
+        ]
+      },
+      "2c771b7d-3da3-4b93-b22a-cb4dd3244573": {
+        "Definition": "2c771b7d-3da3-4b93-b22a-cb4dd3244573",
+        "Components": [
+          "bb92a539-0352-13f6-2372-95f1f9ac2dc5",
+          "67954b74-e1de-c8f2-74b6-4138ff14224b",
+          "efa9fcf5-1212-718d-1609-0f2a2350f751",
+          "63988d36-f4b5-5877-b2c9-469bc1be140e",
+          "c4c3b3b6-1c05-4c10-a353-8d54d9472722",
+          "628fc28b-0977-4b30-83e9-6ef7f69b108f",
+          "a91aa1a5-882b-46bf-823d-6de1c892fdbc",
+          "e1560029-153a-48a6-b89c-5560a3269787"
+        ],
+        "ObjectBuilders": [
+          "Game2:Keen.Game2.Simulation.WorldObjects.Spectators.SpectatorObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.WorldTransformComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.GameSystems.Ownership.OwnershipObjectBuilder",
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          null,
+          "Game2:Keen.Game2.Simulation.WorldObjects.Characters.ToolsComponentObjectBuilder",
+          null
+        ]
+      },
+      "1b83c461-5c76-4e61-80ba-e2443d2d49ee": {
+        "Definition": "1b83c461-5c76-4e61-80ba-e2443d2d49ee",
+        "Components": [
+          "d9ae09f2-38c0-1719-39d0-9b2387e0e735",
+          "96e161df-95c3-719c-c48f-b2360e0cb964",
+          "8013ca3d-ec15-e7f8-d9ba-a3ff70953755",
+          "c0b0cef1-885c-4636-80f1-caeb7fa5a310"
+        ],
+        "ObjectBuilders": [
+          "VRage:Keen.VRage.Core.Game.Components.HierarchyComponentObjectBuilder",
+          "VRage:Keen.VRage.Water.Components.WaterDomainComponentObjectBuilder",
+          null,
+          null
+        ]
+      }
+    }
+  }
+}

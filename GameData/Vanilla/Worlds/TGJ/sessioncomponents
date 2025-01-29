@@ -1,0 +1,1431 @@
+{
+  "$Bundles": {
+    "Game2": "0.12.22.810",
+    "System.Runtime": "1.0.0.0",
+    "VRage": "0.12.22.810"
+  },
+  "$Type": "Game2:Keen.Game2.Simulation.RuntimeSystems.Saves.SessionComponentsSnapshot",
+  "$Value": {
+    "Components": [
+      {
+        "Type": "VRage:Keen.VRage.Core.Game.Systems.FixedLoadingPhaseSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "VRage:Keen.VRage.Core.Game.Systems.FixedLoadingPhaseObjectBuilder",
+          "LoadingFrames": 0
+        },
+        "Tags": [
+          "FixedLoadingPhaseSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Core.Game.GameSystems.ProceduralGeneration.ProceduralGenerationDataSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ProceduralGenerationDataSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Voxels.Components.VoxelDestructionSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "VoxelDestructionSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Voxels.Utilities.VoxelsStatsSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "VoxelsStatsSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Client.RuntimeSystems.CoreScenes.GameParallelBundleInitSystemsComponent+ServerComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ServerComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Multiplayer.Replications.InProcess.ServerSceneContext+ServerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IDataReplication",
+          "IObservableReplication",
+          "ReplicationCommandBufferSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Multiplayer.Replications.InProcess.SimpleReplicationMappingSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IReplicationMapping"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.GameTimes.GameTimeSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.GameTimes.GameTimeSessionComponentObjectBuilder",
+          "ElapsedTime": 4060332591938,
+          "Valid": true
+        },
+        "Tags": [
+          "GameTimeSessionComponent",
+          "IGameTime",
+          "ITimeProvider"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Sun.SunSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Sun.SunSessionComponentObjectBuilder",
+          "TimeOfDayOffset": 0,
+          "SunRotation": true,
+          "Valid": true
+        },
+        "Tags": [
+          "SunSessionComponent",
+          "ISun"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Core.Game.GameSystems.SpaceProbe.SpaceProbeSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "SpaceProbeSessionComponent",
+          "ISpaceProbeSystem"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Core.Game.GameSystems.SpatialTrigger.SpatialTriggerSystemSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "SpatialTriggerSystemSessionComponent",
+          "ISpatialTriggerSystem"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.SceneStatTrackerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "SceneStatTrackerSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.GameTimes.TimerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "TimerSessionComponent",
+          "ITimer"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Physicss.GridDestructionSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "GridDestructionSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Physicss.MassComputationSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "MassComputationSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Core.Game.Systems.SimpleEntitySpawnerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "SimpleEntitySpawnerSessionComponent",
+          "IEntitySpawner"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Game.ProceduralGeneration.ProceduralGeneratorServerSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "VRage:Keen.VRage.Game.ProceduralGeneration.ProceduralGeneratorServerSessionComponentObjectBuilder",
+          "Seed": 1359595336,
+          "Activated": true,
+          "SkipProceduralGeneration": []
+        },
+        "Tags": [
+          "ProceduralGeneratorSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Water.Components.WaterSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "WaterSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Water.Components.WaterDebugDrawSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "WaterDebugDrawSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Ownership.OwnershipSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Ownership.OwnershipSessionObjectBuilder",
+          "Identities": [
+            {
+              "_id": -1559595548
+            }
+          ]
+        },
+        "Tags": [
+          "OwnershipSessionComponent",
+          "IIdentityAllocator"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.GridPrefabs.GridPrefabProviderSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "GridPrefabProviderSessionComponent",
+          "IGridPrefabProvider"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Permissions.PermissionsSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "PermissionsSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.RangedAffectGenerators.Gravity.GravitySessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "GravitySessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Player.InProcessPerPlayerDataSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Player.PerPlayerDataSessionComponentObjectBuilder",
+          "PerPlayerData": [
+            {
+              "$Key": {
+                "_id": -1559595548
+              },
+              "$Value": [
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Control.ControlPerPlayerData",
+                  "LastControlledEntity": 0
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.GPS.GPSMarkersServerData",
+                  "GPSMarkers": [],
+                  "MarkersGroups": [],
+                  "LevelsOfDetail": "Dynamic",
+                  "GPSEntityList": []
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.ToolbarPerPlayerData",
+                  "Selection": {
+                    "Selection": {
+                      "ToolbarIndexIndex": 0,
+                      "TileIndex": 9
+                    },
+                    "SizeVariant": 2,
+                    "BlockVariant": 3,
+                    "VariantIndex": 7
+                  },
+                  "ToolbarTiles": [
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "ArmorLightBasicShapes",
+                        "Icon": "{G}92a4c7d6-95d0-4d0e-b653-7e6981ce8be5",
+                        "Overlays": [],
+                        "Blocks": [
+                          "3277a77c-59fc-46db-9ba2-3f9b2ac1fead",
+                          "402fa427-ea7a-4900-9227-0a41e2f5eb05",
+                          "4c80d672-bc0a-4661-bb77-007ae90f1d57",
+                          "a3be867c-08f8-46bc-93ef-ae6e177d583c",
+                          "d2094e51-578f-45c2-98b4-02b9802b01d3",
+                          "610740e1-3d69-4f9b-85cd-c880913a5650",
+                          "560ad1d9-819b-4c94-b6df-51ab69d6621f",
+                          "298587c2-c8ea-4ea7-9e97-cbb310dc8110"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "Cockpit",
+                        "Icon": "{G}1ba5ab0b-641c-4730-a031-9df2c8f77c51",
+                        "Overlays": [],
+                        "Blocks": [
+                          "4030ca9e-c269-479c-bb2a-a6b64c2411fc"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "Gyroscope",
+                        "Icon": "{G}aa5855f9-7950-48c6-a78c-91da01c8c444",
+                        "Overlays": [],
+                        "Blocks": [
+                          "bdc9716f-8b96-4c72-b2a1-6bbf8a651e90",
+                          "467d7f80-fa63-4dfe-8c20-eabd29d0778d",
+                          "456ecfc8-3c12-4ec6-95ec-1b90ca063a14"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "ThrusterIon",
+                        "Icon": "{G}512fc204-ea6e-471e-ad30-361eb36ce0a6",
+                        "Overlays": [],
+                        "Blocks": [
+                          "b4d170be-6b9c-44fe-8a72-7254a2ccaa68",
+                          "98b92b2d-faf8-451b-b2a0-394203c43f89",
+                          "b8eabff7-b153-4bf9-bac9-e35ac9bae3e3",
+                          "6fb704dc-ca83-4a69-94b3-6ea589129f7e"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "LandingGear",
+                        "Icon": "{G}6e379258-c93c-4c6d-bd8c-4ec6171da076",
+                        "Overlays": [],
+                        "Blocks": [
+                          "e15a14fb-4280-42f1-81cb-768feab9691f",
+                          "9f03b69c-5457-4da0-9d98-7013e9e25c22"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "SquareWindows",
+                        "Icon": "{G}0f0d8f9f-78d9-4afe-85dd-c8cf1f4cb922",
+                        "Overlays": [],
+                        "Blocks": [
+                          "88dffbad-2fac-4f04-a571-8b34695f7261",
+                          "274cea6d-f65d-4e99-ae2c-db8c220057db",
+                          "41514765-033c-4696-a131-10e216592a99"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "InteriorWallsAll",
+                        "Icon": "{G}980a4a62-9c43-4972-9448-9df70437391d",
+                        "Overlays": [],
+                        "Blocks": [
+                          "72d44945-bcb9-496e-98bc-05879adfab30",
+                          "56f6a42e-55da-42e0-a072-a14a0b5ca6f1",
+                          "1a245d28-7c72-4e14-8c8e-45629aaa302d"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "InteriorPillarsAll",
+                        "Icon": "{G}cfcd4378-c1e6-4348-8dad-8af9a12dc616",
+                        "Overlays": [],
+                        "Blocks": [
+                          "c2045b2d-9c9f-4261-968c-05256d5c797f",
+                          "ba1eb705-a800-47ce-9f28-1609369788cb",
+                          "8aa2b903-efac-4f20-8714-a4e4c6dccb93",
+                          "4eb68449-c20d-46fc-b9f7-8de24488f6e6"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "DetailingBasicShapes",
+                        "Icon": "{G}f07eda89-27f7-4d23-8073-00b72b3e7397",
+                        "Overlays": [],
+                        "Blocks": [
+                          "766f352d-2d7a-4c41-86d0-f10ef38cb5c6",
+                          "f1c18773-82c3-4952-bd87-75e585bb8bd2",
+                          "dbcd1dda-0eb3-42a6-92c1-a0c3d2a7dfe2",
+                          "410c197a-a463-4494-b9af-35e676bc15ec"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.ToolToolbarTile",
+                        "Name": "guntool",
+                        "Icon": "{G}abc79d27-c24a-4a7b-89b9-f33b2c756f27",
+                        "Overlays": [],
+                        "ToolPrefab": "020c56d3-9239-4b30-9714-770266bf95b3"
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.ToolToolbarTile",
+                        "Name": "HandDrill",
+                        "Icon": "{G}4c755048-5cbc-4e8f-98af-2f066649a90f",
+                        "Overlays": [],
+                        "ToolPrefab": "13bef13e-8601-40c4-99f9-99bc7029d2a7"
+                      },
+                       {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.ToolToolbarTile",
+                        "Name": "IntegrityTool",
+                        "Icon": "{G}4c755048-5cbc-4e8f-98af-2f066649a90f",
+                        "Overlays": [],
+                        "ToolPrefab": "efacf7cd-db36-4176-a899-7ec973733a51"
+                      },
+                       {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.ToolToolbarTile",
+                        "Name": "IntegrityTool",
+                        "Icon": "{G}4c755048-5cbc-4e8f-98af-2f066649a90f",
+                        "Overlays": [],
+                        "ToolPrefab": "668fc994-a7bc-4cf5-a0af-1fff82f2bde4"
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.WaterHandOperator",
+                        "Name": "Underwater",
+                        "Icon": "{G}7033921f-62d7-4c0d-aa29-24589fc14e00",
+                        "Overlays": [
+                            "{G}07f1506a-f8c9-4882-9519-8ed63e41e5e3"
+                        ],
+                        "Primary": {
+                            "Type": "Add",
+                            "IsContinuous": true
+                        },
+                        "Secondary": {
+                            "Type": "Remove",
+                            "IsContinuous": true
+                        }
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "GravityGenerator",
+                        "Icon": "{G}2c798262-2d5f-444a-981f-09578acc4717",
+                        "Overlays": [],
+                        "Blocks": [
+                          "6ed8c36c-a9db-49f7-b8db-682d0b702a47"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "ToolDrill",
+                        "Icon": "{G}e92049d5-73c5-45ba-b169-ee967982e649",
+                        "Overlays": [],
+                        "Blocks": [
+                          "1ceb91d3-3a93-4e1b-a4bc-fb1c5a93af64"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "SeatControl",
+                        "Icon": "{G}374ff705-f569-4dd0-a55d-455d11ec3557",
+                        "Overlays": [],
+                        "Blocks": [
+                          "b1069c34-9d26-4693-85f7-48a12edae469"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "InteriorLighting",
+                        "Icon": "{G}217c88d6-dfd9-4a8e-bd32-e67aa772a6b8",
+                        "Overlays": [],
+                        "Blocks": [
+                          "4df599f7-dea6-4f5b-b517-91e0d4aacb95",
+                          "998e7263-37b8-42c6-9891-dd387e1a0f21"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "Antenna",
+                        "Icon": "{G}9a859617-6318-4985-9574-b6fcff2ce864",
+                        "Overlays": [],
+                        "Blocks": [
+                          "0068e82e-91d7-4222-b0b0-ad6d3e247a5b",
+                          "f9a58ffb-617d-4872-8f2f-c537d49af1eb"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "PowerReactor",
+                        "Icon": "{G}4f17e779-b027-4ab6-af40-d8fb0ca07fb7",
+                        "Overlays": [],
+                        "Blocks": [
+                          "aef113ef-7ab2-41ed-88d1-13e84e84aa57",
+                          "d2118bfc-7a8a-4616-8701-5a9376f9edf0"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "CargoContainer",
+                        "Icon": "{G}df36ac9b-bcbe-414e-9a8f-221fcff985da",
+                        "Overlays": [],
+                        "Blocks": [
+                          "331908ae-5a66-4479-a790-1ef5c19316ef",
+                          "6cb3447a-768d-4234-be3b-81a24c02ba2d",
+                          "e011dbad-6bdb-4f45-8aa4-d3d7bbf86b19"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "Assembler",
+                        "Icon": "{G}d2c152e0-6526-437c-9e5b-e9eceb1d8fc2",
+                        "Overlays": [],
+                        "Blocks": [
+                          "fca02bd8-37a7-41c4-8177-7d779a68a890"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "Refinery",
+                        "Icon": "{G}61ddf216-725c-4a75-beef-4c1ee841fcc0",
+                        "Overlays": [],
+                        "Blocks": [
+                          "6ded7f11-e2a2-49ae-bf59-2dfae2909a58"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "DoorNarrow",
+                        "Icon": "{G}ac1abfa2-873d-4f6d-a3eb-70bf2e89f22f",
+                        "Overlays": [],
+                        "Blocks": [
+                          "f2202f8e-452b-49c1-8be8-17c6ad92f5c6"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "StairsandRamps",
+                        "Icon": "{G}a6eb5f08-9af3-450e-bb3b-1fcb495338a8",
+                        "Overlays": [],
+                        "Blocks": [
+                          "e4b8be51-a8c5-4a2b-9544-923a2b953009",
+                          "60ec99e4-d918-4180-ba57-f6f2551ac0a1"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "CatwalksAll",
+                        "Icon": "{G}3e4361dc-6754-4406-b713-ee71aa03ca96",
+                        "Overlays": [],
+                        "Blocks": [
+                          "235823ca-6782-4179-89a8-6b358a0623c5",
+                          "7fe314b7-9ffa-49b5-be14-48141643f2b6",
+                          "1c9178ff-64b9-4ab2-b150-172628d86465"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "HandRailsAll",
+                        "Icon": "{G}c3e27a9a-7e18-4c17-a409-62fd46b498d7",
+                        "Overlays": [],
+                        "Blocks": [
+                          "4500cfde-b999-42aa-970f-827a941dedfc",
+                          "86748fb1-14b5-4d75-819e-c34529c340ad",
+                          "af63a471-457b-4d38-8a28-7c227a925493",
+                          "1516e120-9374-49d9-b52e-0e4f66825085",
+                          "3f07d84e-ed36-4eb0-aea2-0b9fafa68cbe"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "ButtonsAll",
+                        "Icon": "{G}bc469605-7f0b-4623-b88f-4ab9a7804990",
+                        "Overlays": [],
+                        "Blocks": [
+                          "d25fd586-eb7f-445c-90b0-588708a0aa64",
+                          "d9eb5e22-5cbf-4f41-86df-8de74933c5ea"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "MedicalRoom",
+                        "Icon": "{G}acf656d0-18fa-42cb-b790-af88ead77e94",
+                        "Overlays": [],
+                        "Blocks": [
+                          "1bacdcde-3180-41fd-a860-585ac13ac6bb"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "CoverWall",
+                        "Icon": "{G}4ffa99b0-e481-45b2-a6c3-60bf0255d9e4",
+                        "Overlays": [],
+                        "Blocks": [
+                          "d1f8aacb-40da-413d-b1e1-2c9f06fcd5ca"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "PowerSolarPanels",
+                        "Icon": "{G}364b0112-c9f6-4f9b-8f0b-7d127dc9bb88",
+                        "Overlays": [],
+                        "Blocks": [
+                          "3436c576-aa8d-4344-9695-6ef9bf518dee",
+                          "58d4aece-a1d3-4dff-a1f8-bdca19e1c993"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.BlockToolbarTile",
+                        "Name": "WeaponGatlingCannon",
+                        "Icon": "{G}abc79d27-c24a-4a7b-89b9-f33b2c756f27",
+                        "Overlays": [],
+                        "Blocks": [
+                          "0695ae2a-4289-43ba-9fd6-052957c28e13"
+                        ],
+                        "LastSelectedBlockIndex": null
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ],
+                    [
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.EmptyToolbarTile",
+                        "Name": "",
+                        "Icon": null,
+                        "Overlays": []
+                      },
+                      {
+                        "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.DeselectTile",
+                        "Name": "",
+                        "Icon": "{G}8ce155cc-204a-48ec-a1db-c5361f45e62b",
+                        "Overlays": []
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Progression.PlayerProgressionData",
+                  "UnlockedRules": [],
+                  "RecentlyUnlockedRules": []
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Camera.CameraPerPlayerData",
+                  "CameraStateIndex": 0,
+                  "LastCameraEntity": 0
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Toolbars.VoxelHand.VoxelHandData",
+                  "Settings": {
+                    "BrushDistance": 6,
+                    "BrushProjectionTransparency": 10,
+                    "ShowBoundingBox": false,
+                    "Rotation": {
+                      "X": 0.013089597,
+                      "Y": 0,
+                      "Z": 0,
+                      "W": 0.99991435
+                    }
+                  }
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Camera.CameraStatePerPlayerData",
+                  "CameraData": {
+                    "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Camera.ThirdPersonCameraObjectBuilder",
+                    "Rotation": {
+                      "X": 0,
+                      "Y": -16.38659,
+                      "Z": 0
+                    },
+                    "Distance": 4.1,
+                    "PitchOffset": -0.28599995
+                  }
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.WorldObjects.Tools.PaintToolPerPlayerData",
+                  "Color": {
+                    "Values": {
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0.35,
+                      "W": 1
+                    }
+                  },
+                  "Palette": [
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0.35,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0.8,
+                        "Z": 0.5,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0.35,
+                        "Y": 0.45,
+                        "Z": 0.25,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0.575,
+                        "Y": 0.8,
+                        "Z": 0.45,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0.12222222,
+                        "Y": 0.7,
+                        "Z": 0.71,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0.85,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0.65,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0.95,
+                        "Z": 0.7,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0.33333334,
+                        "Y": 0.47,
+                        "Z": 0.4,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0.575,
+                        "Y": 0.95,
+                        "Z": 0.65,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0.12222222,
+                        "Y": 0.85,
+                        "Z": 0.91,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 1,
+                        "W": 1
+                      }
+                    },
+                    {
+                      "Values": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0.15,
+                        "W": 1
+                      }
+                    }
+                  ],
+                  "BrushRadius": 0,
+                  "PaletteIndex": 0
+                },
+                {
+                  "$Type": "Game2:Keen.Game2.Simulation.GameSystems.PCU.PCUPerPlayerData",
+                  "PCU": 39625,
+                  "MaxPCU": 1000000
+                }
+              ]
+            }
+          ]
+        },
+        "Tags": [
+          "IPerPlayerData"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.PCU.PCUSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.PCU.PCUSessionComponentObjectBuilder",
+          "MaxGlobalPCU": null
+        },
+        "Tags": [
+          "PCUSessionComponent",
+          "IPCU"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Player.GameModeSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.Player.GameModeObjectBuilder",
+          "CreativeOwners": [],
+          "CreativeGlobal": false,
+          "InfiniteEnergy": true
+        },
+        "Tags": [
+          "GameModeSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.GridConsistency.GridConsistencySessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.GameSystems.GridConsistency.GridConsistencyObjectBuilder",
+          "AllowInitialGridSplitting": true,
+          "AllowGridSplittingOnAdddition": true
+        },
+        "Tags": [
+          "GridConsistencySessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Game.SessionComponents.InProcessGameServerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IGameServer"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Client.GameSystems.ControlHintsSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ControlHintsSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Client.GameSystems.ClipboardSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ClipboardSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Client.GameSystems.BlockPlacerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "BlockPlacerSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.UserMessages.UserMessagesSystemServerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IUserMessages"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Game.SessionComponents.SaveNotificationsSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "SaveNotificationsSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.DebugDraw.DebugDrawBaseSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IDebugDrawProvider"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Multiplayer.SecureIds.SinglePlayerSecureEntityIdsSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ISecureEntityIds"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.StreamedUI.Terminal.Inventories.StreamedInventorySessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "StreamedInventorySessionComponent",
+          "ITerminalInventory"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.StreamedUI.Terminal.ControlPanel.StreamedControlPanelSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "StreamedControlPanelSessionComponent",
+          "IControlPanel"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.StreamedUI.Terminal.Production.StreamedProductionInfoSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "StreamedProductionInfoSessionComponent",
+          "ITerminalProduction"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.StreamedUI.MissionEditor.StreamedMissionEditorSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "StreamedMissionEditorSessionComponent",
+          "IMissionEditor"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.ProjectileSystems.ProjectileVisualsServerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IProjectileVisuals"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.FloatingObjects.FloatingObjectSpawnerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IFloatingObjectSpawner"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Interaction.InteractorSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IInteractor"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Player.PlayersSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "PlayersSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.RespawnSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "RespawnSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.PCU.PCUTrackerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "PCUTrackerSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.PCU.PCUNotificationServerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "PCUNotificationServerSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.GPS.GPSSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "GPSSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.UndoRedo.UndoSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "UndoSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.WorldObjects.CubeGrids.Physicss.StaticGridsOverridesComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "StaticGridsOverridesComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.BlockPlacement.BlockPlacementSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IBlockPlacement"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.RuntimeSystems.Saves.SaveSessionComponent",
+        "ObjectBuilder": {
+          "$Type": "Game2:Keen.Game2.Simulation.RuntimeSystems.Saves.SaveSessionObjectBuilder",
+          "EnableAutosave": false
+        },
+        "Tags": [
+          "SaveSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Physics.Havok.HavokSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "HavokSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Physicss.UnobstructedSpaceSearchSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "UnobstructedSpaceSearchSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Physicss.ManifoldCallbackDealerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ManifoldCallbackDealerSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.Game.Armor.Components.ArmorMesherSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ArmorMesherSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Explosions.ExplosionEffectsServerSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IExplosionEffects"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.ProjectileSystems.ProjectileSystemSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IProjectileSystem"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Missions.MissionScreenSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "MissionScreenSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.AI.Kythera.KytheraSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "KytheraSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.ServerDebugScreenSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "ServerDebugScreenSessionComponent"
+        ]
+      },
+      {
+        "Type": "VRage:Keen.VRage.AI.Debugging.AIDebugSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "AIDebugSessionComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.AI.Debugging.AIAgentDebugScreenComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "AIAgentDebugScreenComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.Missions.MissionDebugScreenComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "MissionDebugScreenComponent"
+        ]
+      },
+      {
+        "Type": "Game2:Keen.Game2.Simulation.GameSystems.AI.Geometry.GeometryCollectorSessionComponent",
+        "ObjectBuilder": null,
+        "Tags": [
+          "IGeometryCollector"
+        ]
+      }
+    ]
+  }
+}

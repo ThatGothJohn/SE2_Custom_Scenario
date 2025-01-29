@@ -1,0 +1,16 @@
+{
+  "$Bundles": {
+    "System.Runtime": "1.0.0.0",
+    "VRage": "0.12.22.810"
+  },
+  "$Type": "VRage:Keen.VRage.Library.Filesystem.StorageManagers.ContainerInfo`1<VRage:Keen.VRage.Core.Worlds.WorldSessionSaveGameMetaData>",
+  "$Value": {
+    "Meta": {
+      "DisplayName": "ThatGothJohn's Testing Environment",
+      "GameVersion": 12022,
+      "GameBuildNumber": 810,
+      "SaveGameCreationTimeInTicks": 638684044942839033
+    },
+    "AdditionalData": {}
+  }
+}
