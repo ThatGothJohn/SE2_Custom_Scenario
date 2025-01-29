@@ -1,0 +1,46 @@
+{
+  "$Bundles": {
+    "Game2": "0.12.21.1601",
+    "System.Runtime": "1.0.0.0",
+    "VRage": "0.12.22.807"
+  },
+  "$Type": "Game2:Keen.Game2.Client.RuntimeSystems.ScenarioConfigurationObjectBuilder",
+  "$Value": {
+    "Guid": "65f33a58-b3e5-4e92-8dff-77520fdf58ee",
+    "ScenarioSaveRedShip": {
+      "SaveName": "CRF"
+    },
+    "ScenarioSaveSurvival": {
+      "SaveName": "Survival"
+    },
+    "ScenarioNameCreative": "ScenarioNameCreative",
+    "ScenarioNameSurvival": "ScenarioNameSurvival",
+    "ScenarioNameRedShip": "ScenarioNameCRF",
+    "Scenarios": [
+      {
+        "Key": "97cf42cd-fd7c-4ee5-980c-134ab58d3fd9",
+        "Value": {
+          "Name": "ScenarioNameCRF",
+          "Save": {
+            "SaveName": "CRF"
+          },
+          "Description": "ScenarioDescriptionCRF",
+          "Author": "by Keen Software House",
+          "Background": "{G}735c6fb2-345a-4e15-817e-aaa428459427"
+        }
+      },
+      {
+        "Key": "28070e5b-7f7a-4383-b59f-87d3ef58df8f",
+        "Value": {
+          "Name": "ScenarioNameEmptyWorld",
+          "Save": {
+            "SaveName": "EmptyWorld"
+          },
+          "Description": "ScenarioDescriptionEmptyWorld",
+          "Author": "by Keen Software House",
+          "Background": "{G}875054e0-1b31-4210-aa86-8b957d64b5a0"
+        }
+      }
+    ]
+  }
+}
